@@ -1,0 +1,19 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+    <s:Header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Security>
+            <wsse:UsernameToken>
+                <wsse:Username>admin</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordDigest">tgG9p7u+APUpFETj5k2copFeCog=</wsse:Password>
+                <wsse:Nonce>02/Jl5T3mmVr9ytTxKMCjGV0hm4=</wsse:Nonce>
+                <wsu:Created>2020-10-15T05:20:45.000Z</wsu:Created>
+            </wsse:UsernameToken>
+        </wsse:Security>
+    </s:Header>
+    <s:Body xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl">
+        <tptz:Stop>
+            <tptz:ProfileToken>PROFILE_000</tptz:ProfileToken>
+            <tptz:PanTilt>true</tptz:PanTilt>
+            <tptz:Zoom>false</tptz:Zoom>
+        </tptz:Stop>
+    </s:Body>
+</s:Envelope>
